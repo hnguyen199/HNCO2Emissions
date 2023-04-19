@@ -3,7 +3,9 @@ The project focuses on the broad spectrum of emissions across the globe and who 
 ## Data Section
 The source of the data set comes from "pabloarosado" (https://github.com/owid/co2-data/blob/master/owid-co2-data.csv) and downloaded at 1:30 pm, March 29, 2023. 
 ## Data Processing 
-
+1) The steps to clean the data, we first imported the dataset given in the Github and into the Colab Notebook
+2) Specifying 'non-coutnries' listed in the Colab notebook, I used "df = df.loc[df['country'].isin(non_countries) == False]" to remove all the non-countries that do not need to be addressed as we move forward throughout the notebook. 
 ## Author Section 
 Harold Nguyen, hnguyen19@seattleu.edu 
 ## Licence 
+GPL
